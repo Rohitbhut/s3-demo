@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "env-cmd -f ./config/prod.env node dist/index.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
-    "build": "ncc build ./src/index.js -o dist"
+    "start": "env-cmd -f ./config/prod.env node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
