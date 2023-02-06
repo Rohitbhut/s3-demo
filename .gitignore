@@ -1,0 +1,4 @@
+node_modules
+config/dev.env
+s3demo.xlsx
+dist
