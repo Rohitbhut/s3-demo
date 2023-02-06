@@ -7,7 +7,7 @@ const port=process.env.PORT || 3000;
 app.use(express.json());
 
 app.use('/home',(req,res)=>{
-    res.json({msg:'Hello I am Rohit Patel'});
+    res.json({msg:'Hello I am Rohit Bhut'});
 });
 
 //User Routing App
