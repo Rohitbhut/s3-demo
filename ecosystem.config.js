@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name   : "NODE-AWS-S3-DEMO",
-    script : "./dist/index.js",
+    script : "./src/index.js",
     env_production: {
         CONNECATION_URL:"mongodb+srv://Rohit:Rohit%4099133@cluster0.womhv.mongodb.net/s3-demo",
         PORT:3000,
